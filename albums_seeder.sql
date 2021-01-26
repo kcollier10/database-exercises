@@ -1,7 +1,5 @@
 use codeup_test_db;
 
-TRUNCATE albums;
-
 insert into albums (artist, name, release_date, genre, sales)
 values ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('AC/DC', 'Back in Black', 1980, 'Hard rock', 26.1),
@@ -34,3 +32,16 @@ values ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('Pink Floyd', 'The Wall', 1979, 'Progressive rock', 17.6),
        ('Santana', 'Supernatural', 1999, 'Rock', 20.5),
        ('Guns N'' Roses', 'Appetite for Destruction', 1987, 'Hard rock', 21.6);
+
+INSERT INTO albums (artist, name, release_date, sales, genre) VALUES ('Band One', 'The Warst', 2878, 1234561, 'Punk');
+INSERT INTO albums (artist, name, release_date, sales, genre) VALUES ('Band Two', 'The Werst', 2878, 1234562, 'Rock');
+INSERT INTO albums (artist, name, release_date, sales, genre) VALUES ('Band Three', 'The Wirst', 2878, 1234563, 'Country');
+INSERT INTO albums (artist, name, release_date, sales, genre) VALUES ('Band Four', 'The Worst', 2878, 1234564, 'Alternative');
+INSERT INTO albums (artist, name, release_date, sales, genre) VALUES ('Band Five', 'The Wurst', 2878, 1234565, 'Classical');
+
+INSERT into albums(artist, name, release_date, sales, genre)
+VALUES('Band Six', 'The Bast', 2001, 2312321, 'Rock'),
+    ('Band Seven', 'The Best', 2003, 3412321, 'Country'),
+    ('Band Eight', 'The Bist', 2003, 382371289, 'Classical'),
+    ('Band Nine', 'The Bost', 2003, 21937, 'Rock'),
+    ('Band 10', 'The Bust', 2003, 238947293, 'Pop');
