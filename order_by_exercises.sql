@@ -74,7 +74,7 @@ WHERE gender like 'M'
     AND (first_name LIKE 'Irena'
     OR first_name LIKE 'Vidya'
     OR first_name LIKE 'Maya')
-    ORDER BY first_name, last_name DESC;
+    ORDER BY first_name, last_name;
 
 # Update the query to order by first name and then last name. The first result should now be Irena Acton and the last should be Vidya Zweizig.
 
